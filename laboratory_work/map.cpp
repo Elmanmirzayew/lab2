@@ -34,7 +34,6 @@ void Map:: add_arena(std:: string loc_name, int x, int y) {
 }
 
 void Map:: screen() {
-    for (int i = 0; i < 30; ++i) { std:: cout << std:: endl; }
     for (int j = 0; j < 20; ++j) {
         for (int i = 0; i < 20; ++i) {
             if (map[j][i] != ' ') {
